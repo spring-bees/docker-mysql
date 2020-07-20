@@ -23,22 +23,22 @@ services:
       - MYSQL_PASSWORD=mydb-pass
 ```
 
-端口
+Port
 
 ```
 3306
 ```
 
-环境变量
+Multiple Database Initialize
 
 ```properties
-MYSQL_ROOT_PASSWORD=<root_password> #root密码，默认111111
-MYSQL_DATABASE=<dbname1>,<dbname2> #数据库名,多个逗号分隔
-MYSQL_USER=<dbuser1>,<dbuser2> #数据库用户,多个逗号分隔
-MYSQL_PASSWORD=<dbpass1>,<dbpass2> #数据库用户密码,多个逗号分隔
+MYSQL_ROOT_PASSWORD=<root_password>
+MYSQL_DATABASE=<dbname1>,<dbname2>
+MYSQL_USER=<dbuser1>,<dbuser2>
+MYSQL_PASSWORD=<dbpass1>,<dbpass2>
 ```
 
-卷
+VOL
 
 ```
 /app
