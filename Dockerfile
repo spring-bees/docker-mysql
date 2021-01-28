@@ -1,4 +1,4 @@
-FROM mysql:5.7.33
+FROM mysql:5.7.26
 
 MAINTAINER coolbeevip(coolbeevip@gmail.com)
 
